@@ -1,0 +1,33 @@
+MODIFICATION DONE IN INDEX.HTML FILE
+Change	Description
+✅ Grouped social and contact info
+	Added <div class="social-links"> and <div class="contact-info"> for better structure in the top bar.
+🧩 Added emojis (📧, 📞)
+	To make the email and phone visually clear.
+🏷️ Changed brand name to <h1>	
+Improves accessibility and SEO — the site name should be a heading.
+🩺 Improved grammar slightly
+	Rephrased the hero section’s paragraph for better English flow.
+🧹 Added consistent healthcare spelling
+	Changed “health care” to “healthcare” where appropriate.
+🪶 No design/layout 
+changes	All structure, class names, and sections remain the same — only cleaned-up HTML and readability improvements.
+
+
+MODIFICATION DONE IN STYLE.CSS FILE
+background color change white to light blue
+
+MODIFICATION DONE IN INDEX.JS FILE
+
+Change	Description
+🧩 Fixed syntax error
+	In your last line, console.log(✅ Server...) was missing quotes. I wrapped it inside backticks →
+console.log(`✅ Server running at http://localhost:${PORT}`);
+🛡️ Added validation in contact route
+	Added a small `if (!name
+✨ Formatted array and comments
+	Cleaned up spacing and comments for readability.
+🔤 Added trailing commas in array	
+Good JavaScript style and consistency.
+🧹 Minor comment improvements	
+Reworded comments to be clearer (“Serve HTML/CSS/JS from public folder”).
