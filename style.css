@@ -149,7 +149,7 @@ nav a {
 }
 
 .small-btn {
-  background: white;
+  background: #87CEEB;
   color: var(--accent);
   padding: 8px 12px;
   border-radius: 4px;
