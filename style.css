@@ -1,0 +1,164 @@
+:root {
+  --accent: #2ea3ff;
+  --muted: #6b7a86;
+  --max-width: 1100px;
+  --hero-img: url('doctor.jpg'); /* Replace with your image file */
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f6fbff;
+  color: #18303a;
+}
+
+/* Top Bar */
+.topbar {
+  background: #f1f7fb;
+  font-size: 13px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+  color: #4b6b79;
+}
+
+/* Header */
+header {
+  background: white;
+  box-shadow: 0 1px 0 rgba(20, 60, 80, 0.05);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background: var(--accent);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #334f57;
+  font-size: 15px;
+}
+
+.btn-appointment {
+  background: var(--accent);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  background: 
+    linear-gradient(90deg, rgba(255,255,255,0.95), rgba(255,255,255,0.7)),
+    var(--hero-img);
+  background-size: cover;
+  background-position: center right;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 12px;
+  font-weight: 800;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.hero .lead {
+  color: var(--muted);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Features */
+.features {
+  display: flex;
+  text-align: left;
+}
+
+.feature {
+  flex: 1;
+  padding: 30px;
+  color: white;
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.feature p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.small-btn {
+  background: white;
+  color: var(--accent);
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Feature Colors */
+.f1 { background: #2ea3ff; }
+.f2 { background: #3bb0ff; }
+.f3 { background: #4ebdff; }
